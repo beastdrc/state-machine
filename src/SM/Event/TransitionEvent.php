@@ -12,7 +12,8 @@
 namespace SM\Event;
 
 use SM\StateMachine\StateMachineInterface;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Component\EventDispatcher\GenericEvent as Event;
+
 
 class TransitionEvent extends Event
 {
